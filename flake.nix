@@ -24,16 +24,16 @@
       packages = forAllSystems ({ pkgs }: {
         default = pkgs.buildGoModule rec {
           pname = "sing-box";
-          version = "1.9.5";
+          version = "1.10.0-beta.9";
 
           src = pkgs.fetchFromGitHub {
             owner = "SagerNet";
             repo = pname;
             rev = "v${version}";
-            hash = "sha256-yPIlijm5NBtBT2+bkS0sJvPb/Lwqq/ZOcl5g848BvRA=";
+            hash = "sha256-M50lfxfB87BcHN3CkfwzbxHQK1tquwTI+dYtjU7xPHQ=";
           };
 
-          vendorHash = "sha256-/lp+3mPkGMABpvnxqpuC/7NiKrmcEWYQ80Wb7Ng1eBI=";
+          vendorHash = "sha256-G52zvjU3D/UdsHYtYCXle9yLvJkUuNmWXdBJVU+VCBc=";
 
           tags = [
             "with_quic"
