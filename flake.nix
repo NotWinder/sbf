@@ -24,7 +24,7 @@
       packages = forAllSystems ({ pkgs }: {
         default = pkgs.buildGoModule rec {
           pname = "sing-box";
-          version = "1.10.0-beta.9";
+          version = "1.10.0-beta.10";
 
           src = pkgs.fetchFromGitHub {
             owner = "SagerNet";
