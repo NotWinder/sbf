@@ -30,7 +30,7 @@
             owner = "SagerNet";
             repo = pname;
             rev = "v${version}";
-            hash = "sha256-M50lfxfB87BcHN3CkfwzbxHQK1tquwTI+dYtjU7xPHQ=";
+            hash = "sha256-J9/sI5zpWbqSUmdnIbGeaamO1uFEJpggf8zD0KELWHo=";
           };
 
           vendorHash = "sha256-G52zvjU3D/UdsHYtYCXle9yLvJkUuNmWXdBJVU+VCBc=";
